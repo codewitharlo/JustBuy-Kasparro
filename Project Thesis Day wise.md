@@ -2,11 +2,10 @@
 
 **Date:** 09-05-2026
 
+
 ## *Planning and Research*
 
 *AI can reduce checkout abandonment by detecting behavioral friction before the user leaves.*
-
-<br>
 
 ### **Track Selected**
 **Track 2:** AI Assisted Checkout Recovery
@@ -14,7 +13,6 @@
 ### **Decided Project Title**
 **JustBuy** — *Real-time behavioral friction detection and checkout recovery system*
 
-<br>
 
 # **1. Why am I building this?**
 
@@ -26,7 +24,6 @@ For the seller, this leads to incomplete sales, disappointments, and discouragem
 
 In technical wording, shoppers as well as sellers face *friction* leading to dismay and frustration just before checkout, or during checkout, if not anywhere else in the whole shop.
 
-<br>
 
 # **2. Frictions faced by Shoppers**
 
@@ -46,7 +43,6 @@ By displaying suggestions like:
 - *“Express delivery available by Tuesday.”*
 - *“Free shipping eligible above ₹999.”*
 
-<br>
 
 ### **(b) Coupon Frustration**
 
@@ -61,7 +57,6 @@ Directly applying or suggesting available and eligible coupons like:
 
 - *“SAVE10 applied for ₹200 discount.”*
 
-<br>
 
 ### **(c) Trust Hesitation**
 
@@ -78,7 +73,6 @@ Display:
 
 - *“7-day return and replacement available.”*
 
-<br>
 
 ### **(d) Payment Hesitation**
 
@@ -95,7 +89,6 @@ Show:
 - *“UPI payment available with instant confirmation.”*
 - *“Use Lazypay to pay later.”*
 
-<br>
 
 ### **(e) Decision Fatigue**
 
@@ -113,7 +106,6 @@ AI can help by displaying:
 
 etc.
 
-<br>
 
 # **3. Where AI comes to play and how**
 
@@ -129,7 +121,6 @@ Converting friction into human-friendly responses.
 #### **(c) Personalized concise messaging**
 Based on cart, friction type, and checkout stage.
 
-<br>
 
 ### **It does not handle**
 - Friction detection
@@ -138,7 +129,6 @@ Based on cart, friction type, and checkout stage.
 - State management
 - Analytics
 
-<br>
 
 # **4. Where Logic and Deterministic Features come to play and how**
 
@@ -150,7 +140,6 @@ Based on cart, friction type, and checkout stage.
 - Retries
 - Navigation
 
-<br>
 
 ### **(b) Friction Scoring**
 
@@ -160,7 +149,6 @@ if shippingPageViewed > 2:
     shippingAnxiety += 30
 ```
 
-<br>
 
 ### **(c) Trigger System**
 
@@ -170,7 +158,6 @@ if shippingAnxiety > 70:
     triggerIntervention()
 ```
 
-<br>
 
 ### **(d) Session State**
 
@@ -179,7 +166,6 @@ if shippingAnxiety > 70:
 - Stage
 - Interventions shown
 
-<br>
 
 ### **(e) Recovery Metrics**
 
@@ -188,7 +174,6 @@ if shippingAnxiety > 70:
 - Abandoned checkout
 - Friction category
 
-<br>
 
 # **5. Planned Features**
 
@@ -201,7 +186,6 @@ if shippingAnxiety > 70:
 - Recovery analytics dashboard
 - Fallback handling for AI/API failures
 
-<br>
 
 # **6. Planned Tech Stack**
 
