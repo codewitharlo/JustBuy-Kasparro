@@ -4,7 +4,7 @@
 
 ## Problem
 
-Most ecommerce checkout recovery systems are reactive.s
+Most ecommerce checkout recovery systems are not instant-reactive.
 They send reminder emails or messages after a user abandons checkout instead of identifying and resolving friction during the checkout process itself. And then, its too late. User already changed their mind.
 
 Users commonly abandon purchases due to:
